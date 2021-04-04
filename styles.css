@@ -138,3 +138,45 @@ body {
 #main-languages > a:hover {
     text-decoration: underline;
 }
+
+#footer {
+    background-color: #edeeef;
+    width: 100%;
+    height: 91px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#footer-country {
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #cacaca;
+}
+
+#footer-country > p {
+    color: grey;
+    padding-top: 1%;
+    padding-left: 2%;
+    font-size: 14px;
+}
+
+#footer-links {
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+#footer-links > a {
+    display: inline-block;
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 2%;
+}
+
+#footer-links > a:hover {
+    text-decoration: underline;
+}
+
+#footer-links > a:nth-child(4) {
+    margin-right: 54%;
+}

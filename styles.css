@@ -55,3 +55,86 @@ body {
 #navbar > button:hover {
     background-color: #2b82f5;
 }
+
+#main{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main > img {
+    padding: 0 30%;
+}
+
+#search-bar {
+    padding: 1%;
+    width: 80%;
+    border: 1px solid #bdbcbc;
+    margin: 4% auto;
+    border-radius: 50px;
+}
+
+#search-bar:hover {
+    box-shadow: 1px 2px 3px #bdbcbc;
+}
+
+#search-bar > span:first-child {
+    float: left;
+    padding-left: 10px;
+    padding-top: 3px;
+    color: #bdbcbc;
+}
+
+#search-bar > input {
+    font-size: 16px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 5px;
+    margin-right: 5%;
+    width: 80%;
+    border: none;
+}
+
+#search-bar > input:focus {
+    outline: none;
+}
+
+#search-bar > span:nth-child(3) {
+    color: #bdbcbc;
+    position: relative;
+    top: 2px;
+}
+
+#main-buttons {
+    margin-bottom: 5%;
+}
+
+#main-buttons > button {
+    border: none;
+    font-size: 15px;
+    padding: 1%;
+    margin-right: 1%;
+    background-color: #f5f5f5;
+    color: #353434;
+    cursor: pointer;
+    border-radius: 5%;
+    border: 1px solid #f5f5f5;
+}
+
+#main-buttons > button:hover {
+    border: 1px solid #d0d0d0;
+    border-radius: 5%;
+}
+
+#main-languages {
+    font-size: 12px;
+}
+
+#main-languages > a {
+    text-decoration: none;
+    color: #0e0e8a;
+}
+
+#main-languages > a:hover {
+    text-decoration: underline;
+}
